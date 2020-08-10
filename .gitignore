@@ -1,7 +1,2 @@
-const DEFAULT_IGNORE = [
-	'**/node_modules/**',
-	'**/bower_components/**',
-	'**/flow-typed/**',
-	'**/coverage/**',
-	'**/.git'
-];
+.DS_Store
+node_modules/

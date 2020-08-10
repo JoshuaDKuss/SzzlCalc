@@ -3,13 +3,13 @@
     font-family: Gotham Rounded, sans-serif;
     font-weight: normal;
   }
-  
-  body {
+
+body {
     padding: 0;
     margin: 0;
     background: linear-gradient(to right, #00fbff, #ffe1009a);
   }
-  
+
   .calculator-grid {
     display: grid;
     justify-content: center;
@@ -18,7 +18,7 @@
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
   }
-  
+
   .calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
@@ -56,3 +56,4 @@
     color: white;
     font-size: 2.5rem;
   }
+
