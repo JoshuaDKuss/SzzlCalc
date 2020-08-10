@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,12 +18,15 @@
   "bugs": {
     "url": "https://github.com/JoshuaDKuss/SzzlCalc/issues"
   },
-  "homepage": "https://github.com/JoshuaDKuss/SzzlCalc#readme",
+  "homepage": "https://JoshuaDKuss.github.io/SzzlCalc",
   "dependencies": {
+    "-": "0.0.1",
     "axios": "^0.19.2",
     "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
     "nodemon": "^2.0.4",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "save-dev": "0.0.1-security"
   },
   "devDependencies": {}
 }
